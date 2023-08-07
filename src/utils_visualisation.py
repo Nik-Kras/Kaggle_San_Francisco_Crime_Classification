@@ -24,7 +24,7 @@ def count_missing_values(df: pd.DataFrame):
     ### For Example:
     ### Dataset: 
     #       [1,    0,    None]
-    #       [2,    9,    2]
+    #       [2,    9,    0]
     #       [4,    0,    2]
     #       [None, 0,    2]
     #       [6,    4,    3]
@@ -32,3 +32,7 @@ def count_missing_values(df: pd.DataFrame):
     ###     Column 1: 1
     ###     Column 2: 0
     ###     Column 3: 2
+
+
+    # Do a doubke loop
+    # Do a .isnull() check
