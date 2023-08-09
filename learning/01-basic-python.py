@@ -28,7 +28,7 @@ funcFive(20, stop_num);
 
 # 4. Make a dictionary that can store max_num and stop_num values. 
 # Now improve the function to take a dictionary as an argument
-data2 = dict(stop_num = 5, max_num = funcFive(20));
+data2 = dict(stop_num = 5, max_num = funcFive(20, 30));
 data1 = {
     "stop_num": 5,
     "max_num": 20
