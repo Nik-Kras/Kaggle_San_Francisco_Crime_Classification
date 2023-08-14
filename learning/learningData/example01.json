@@ -1,0 +1,53 @@
+{
+    "ages": [
+        25,
+        30,
+        35,
+        40,
+        98,
+        74,
+        13,
+        94,
+        45,
+        23,
+        12,
+        34,
+        56,
+        78,
+        90
+    ],
+    "names": [
+        "John",
+        "Jane",
+        "Peter",
+        "Jack",
+        "Jill",
+        "Mary",
+        "Paul",
+        "Betty",
+        "Herbert",
+        "Thomas",
+        "Lucy",
+        "Linda",
+        "Susan",
+        "Edward",
+        "Stephanie"
+    ],
+    "city": [
+        "New York",
+        "Los Angeles",
+        "Chicago",
+        "Houston",
+        "Oxford",
+        "Cambridge",
+        "Berlin",
+        "Paris",
+        "Oxford",
+        "Tokyo",
+        "Berlin",
+        "Oxford",
+        "Oxford",
+        "Cambridge",
+        "Berlin"
+    ]
+}
