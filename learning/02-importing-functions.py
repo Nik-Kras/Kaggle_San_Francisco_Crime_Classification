@@ -26,7 +26,7 @@ if __name__ == "__main__":
 
     # Call all your functions here
 
-    # 1. Call all functions from Section 2
+    # 1. Call all functions from Section 1
     
     # ...
     
