@@ -1,3 +1,4 @@
 # TODO: Read what requirements.txt are and fill it accordingly while developing the project
 python==3.8.*
 pandas
+statistics

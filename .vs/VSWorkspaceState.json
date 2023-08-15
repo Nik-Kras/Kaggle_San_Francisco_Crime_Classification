@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\data",
+    "\\learning",
+    "\\models",
+    "\\notebooks",
+    "\\src"
   ],
+  "SelectedNode": "\\learning\\02-importing-functions.py",
   "PreviewInSolutionExplorer": false
 }

@@ -2,13 +2,16 @@
 In this Learning section you will get skills on writing code in several files
 That is how most of the projects are done
 You build one datastructure and then import it to several other scripts
-Or you bild one function and do the same
+Or you build one function and do the same
 It works the same way as in C/C++, so you should pick it up easily
 
 You will work with two files. This one and utils.py, so open both of them
 """
+from email import utils
+from utils import view_users
+from utils import view_statistical_description
 from utils import pring_helllo
-
+from utils import view_users
 
 # This statement says, that the code
 # Inside this IF statement will be called only if you run this file directly
@@ -23,6 +26,13 @@ if __name__ == "__main__":
     # An example  
     print("***\nCalling function: {}".format("pring_helllo"))
     pring_helllo()
+    
+    print("***\nCalling function: {}".format("view_users"))
+    view_users()
+    
+    print("***\nCalling function: {}".format("view_statistical_description"))
+    view_statistical_description()
+    
 
     # Call all your functions here
 

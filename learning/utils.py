@@ -1,6 +1,9 @@
 # While developing have a look at this article to learn how to write good looking code:
 # https://realpython.com/python-pep8/
-from typing import Dict
+from sys import stderr
+from typing import Counter, Dict
+
+import statistics
 
 def pring_helllo():
     print("Hello World")
@@ -13,6 +16,7 @@ def read_json(filePath: str) -> Dict:
     raise NotImplementedError("You need to implement this function")    # When implementing a function, remove this line
 
 def view_users(data: dict):
+    
     """ This function takes a dictionary of data and prints all the users 
     
     I want you to do next in the '02-imporing-functions.py' file:
@@ -29,40 +33,18 @@ def view_users(data: dict):
     PS: make a for loop
     
     """
-    raise NotImplementedError("You need to implement this function")    # When implementing a function, remove this line
+    # When implementing a function, remove this line
+
 
 def view_statistical_description(data: dict):
-    """ This function takes a dictionary of data and prints statistical description of the data
     
-    I want you to visualise next statistical parameters:
-    - Mean  [Numerical only]
-    - Median
-    - Standard Deviation [Numerical only]
-    - Max [Numerical only]
-    - Min [Numerical only]
-    - Frequency of each value 
-    
-    For example:
-    
-    Property: age
-    Min: 18
-    Max: 90
-    STD: 10.5
-    Mean: 30.5
-    ...
-    
-    or
-    
-    Property: name
-    Frequency: [
-        "Nikita": 2,
-        "John": 1,
-        "Anna": 1,
-        ...
-    ]
-    
-    """
-    
+    print("Mean age: ", statistics.mean([dict]))
+    print("Median: ", statistics.median([dict]))
+    print("Standard deviation: ", statistics.stdev([dict]))
+    print("Max: ", max([dict]))
+    print("Min: ", min([dict]))
+    print("Frequency: ", Counter([dict]))
+         
     raise NotImplementedError("You need to implement this function")    # When implementing a function, remove this line
 
 ########### SECTION 2 ###########

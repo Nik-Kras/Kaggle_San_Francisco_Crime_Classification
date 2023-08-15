@@ -36,3 +36,6 @@ def count_missing_values(df: pd.DataFrame):
 
     # Do a doubke loop
     # Do a .isnull() check
+    
+    for df in df.isnull():
+        print()
